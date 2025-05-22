@@ -9,6 +9,7 @@ export class ProductService {
         { id:3, name:"laptop",price:20000 },
     ]
 
+    
     getAllProduct(){
         return this.products;
     }
